@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "module": "NodeNext",
+    "target": "esnext",
+    "types": [
+      "bun-types"
+    ],
+    "moduleResolution": "nodenext"
+  },
+  "extends": "expo/tsconfig.base"
+}
