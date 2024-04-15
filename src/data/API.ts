@@ -166,8 +166,8 @@ export async function fetchCocktailByName(name: string) : Promise<Cocktail> {
 
 export async function fetchCocktailsByFilter(filter: Filter) : Promise<FilterResult[]> {
     if (!filter.canSearch()) { return; }
-
-    if (filter.name !== null) {
+    console.log(filter.toQueryString());
+    if (filter.name && filter.name.length > 0) {
         return [FilterResult.fromCocktail(await fetchCocktailByName(filter.name))];
     }
     const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?${filter.toQueryString()}`);
