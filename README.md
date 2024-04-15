@@ -18,7 +18,9 @@ npm start
 
 Si jamais l'application décide de ne pas fonctionner de votre coté, une vidéo démo est mise en place ci-dessous
 
-{VIDEO DEMO ICI}
+https://github.com/Projets-Next-U-Jordan/cocktails_rn/assets/55529456/ff1aeab4-8744-4cb1-808d-f752c90f1a4c
+
+
 
 ---
 
